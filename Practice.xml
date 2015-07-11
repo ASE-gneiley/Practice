@@ -5,7 +5,7 @@
       <block type="oled_cleardisplay" id="44">
         <next>
           <block type="led_select" id="158" inline="true">
-            <field name="ACTION">OFF</field>
+            <field name="ACTION">ON</field>
             <value name="LED">
               <block type="sensor_light" id="165">
                 <field name="LIGHT">REAR</field>
