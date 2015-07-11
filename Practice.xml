@@ -1,1 +1,8 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment_comment" id="2" x="15" y="7">
+    <field name="TEXT">Practice some commands</field>
+    <next>
+      <block type="movement_stutter" id="12"></block>
+    </next>
+  </block>
+</xml>
