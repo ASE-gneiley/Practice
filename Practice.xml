@@ -8,7 +8,7 @@
             <field name="OBJECT">BLACK</field>
             <next>
               <block type="oled_linerect" id="71">
-                <field name="OBJECT">LINE</field>
+                <field name="OBJECT">RECT</field>
                 <next>
                   <block type="oled_drawtext" id="62">
                     <field name="TEXT">Big Bash!!!</field>
