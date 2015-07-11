@@ -4,15 +4,29 @@
     <next>
       <block type="movement_forward" id="211">
         <next>
-          <block type="controls_if" id="242" inline="false">
-            <value name="IF0">
-              <block type="sensor_object" id="218">
-                <field name="OBJECT">LEFTFRONT</field>
+          <block type="movement_setmotors" id="262" inline="true">
+            <value name="BOTHMOVLEFT">
+              <block type="math_number" id="302">
+                <field name="NUM">1</field>
               </block>
             </value>
-            <statement name="DO0">
-              <block type="movement_stop" id="252"></block>
-            </statement>
+            <value name="BOTHMOVRIGHT">
+              <block type="math_number" id="309">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="242" inline="false">
+                <value name="IF0">
+                  <block type="sensor_object" id="218">
+                    <field name="OBJECT">LEFTFRONT</field>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="movement_stop" id="252"></block>
+                </statement>
+              </block>
+            </next>
           </block>
         </next>
       </block>
