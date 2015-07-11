@@ -4,18 +4,8 @@
     <next>
       <block type="oled_cleardisplay" id="44">
         <next>
-          <block type="oled_color" id="53">
-            <field name="OBJECT">GREEN</field>
-            <next>
-              <block type="oled_linerect" id="71">
-                <field name="OBJECT">RECT</field>
-                <next>
-                  <block type="oled_drawtext" id="62">
-                    <field name="TEXT">Big Bash!!!</field>
-                  </block>
-                </next>
-              </block>
-            </next>
+          <block type="led_select" id="80" inline="true">
+            <field name="ACTION">ON</field>
           </block>
         </next>
       </block>
