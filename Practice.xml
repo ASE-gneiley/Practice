@@ -5,7 +5,7 @@
       <block type="oled_cleardisplay" id="44">
         <next>
           <block type="oled_color" id="53">
-            <field name="OBJECT">BLACK</field>
+            <field name="OBJECT">GREEN</field>
             <next>
               <block type="oled_linerect" id="71">
                 <field name="OBJECT">RECT</field>
