@@ -2,7 +2,18 @@
   <block type="comment_comment" id="2" x="-251" y="12">
     <field name="TEXT">Practice some commands</field>
     <next>
-      <block type="oled_cleardisplay" id="44"></block>
+      <block type="oled_cleardisplay" id="44">
+        <next>
+          <block type="led_select" id="158" inline="true">
+            <field name="ACTION">OFF</field>
+            <value name="LED">
+              <block type="sensor_light" id="165">
+                <field name="LIGHT">LEFT</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
