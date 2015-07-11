@@ -1,8 +1,19 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="2" x="-68" y="6">
+  <block type="comment_comment" id="2" x="-251" y="12">
     <field name="TEXT">Practice some commands</field>
     <next>
-      <block type="oled_cleardisplay" id="44"></block>
+      <block type="oled_cleardisplay" id="44">
+        <next>
+          <block type="oled_color" id="53">
+            <field name="OBJECT">BLACK</field>
+            <next>
+              <block type="oled_drawtext" id="62">
+                <field name="TEXT">Big Bash!!!</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
