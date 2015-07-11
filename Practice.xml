@@ -7,11 +7,11 @@
           <block type="oled_color" id="53">
             <field name="OBJECT">BLACK</field>
             <next>
-              <block type="oled_drawtext" id="62">
-                <field name="TEXT">Big Bash!!!</field>
+              <block type="oled_linerect" id="71">
+                <field name="OBJECT">LINE</field>
                 <next>
-                  <block type="oled_linerect" id="71">
-                    <field name="OBJECT">LINE</field>
+                  <block type="oled_drawtext" id="62">
+                    <field name="TEXT">Big Bash!!!</field>
                   </block>
                 </next>
               </block>
