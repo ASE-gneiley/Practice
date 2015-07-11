@@ -8,7 +8,7 @@
             <field name="ACTION">ON</field>
             <value name="LED">
               <block type="sensor_light" id="149">
-                <field name="LIGHT">LEFT</field>
+                <field name="LIGHT">REAR</field>
               </block>
             </value>
           </block>
